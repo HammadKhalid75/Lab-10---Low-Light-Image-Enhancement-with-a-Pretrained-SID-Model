@@ -1,4 +1,3 @@
-```markdown
 # Low-Light Image Enhancement  
 **"Learning to See in the Dark" pretrained network – MATLAB demo**
 
