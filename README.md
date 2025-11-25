@@ -1,12 +1,7 @@
 # Low-Light Image Enhancement  
-**"Learning to See in the Dark" pretrained network – MATLAB demo**
 
 ### Assignment goal
 Use MathWorks’ pretrained Sony low-light enhancement network on a real extremely dark photo **without** training or downloading the huge SID dataset.
-
-### My submission
-- Real-world input: a nearly black night photo of a United Rentals porta-potty (Example_03.png)
-- The network successfully recovers readable text, logos, and details that were completely invisible in the original image.
 
 ### Key improvements I made
 1. **Real dark image** – no artificial darkening needed (original is already almost pure black)
@@ -23,6 +18,8 @@ Use MathWorks’ pretrained Sony low-light enhancement network on a real extreme
 ### Files in this repository
 - `lowLightEnhance.m` – complete, error-free script (ready to run)
 - `Example_03.png` – original extremely dark input image
+- `light.png` – input to network (with light noise)
+- `raw.png` – raw network output
 - `enhanced_result.png` – final bright, sharp, and colorful output
 - `README.md` – this file
 
