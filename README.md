@@ -36,5 +36,5 @@ Use MathWorks’ pretrained Sony low-light enhancement network on a real extreme
 ### Results
 | Original (almost black) | Input to network | Raw network output | Final enhanced result |
 |-------------------------|------------------|--------------------|-----------------------|
-| ![](Example_03.png)     | (light noise)    | visible but flat  | ![](enhanced_result.png) |
+| ![](Example_03.png)     | ![](light.png)    | ![](rawn.png)  | ![](enhanced_result.png) |
 
